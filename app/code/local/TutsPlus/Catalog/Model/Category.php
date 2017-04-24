@@ -1,6 +1,6 @@
 <?php
 
-  class TutsPlus_Catalog_Model_Category extends Mage_Catalog_Model_Category {
+  class TutsPlus_catalog_Model_Category extends Mage_Catalog_Model_Category {
 
    public function getChildren()
       {
