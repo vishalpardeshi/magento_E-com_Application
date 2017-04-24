@@ -1,10 +1,17 @@
+<?xml version="1.0"?>
 <config>
+  <modules>
+        <TutsPlus_Catalog>
+            <version>0.1.1</version>
+        </TutsPlus_Catalog>
+    </modules>
   <global>
      <models>
+       <tutplus>
+            <class>TutsPlus_Catalog_Model</class>
+      </tutplus>
        <catalog>
-          <rewrite>
-            <category>TutsPlus_Catalog_Model_Category</category>
-          </rewrite>
+          <rewrite><category>TutsPlus_Catalog_Model_Category</category></rewrite>
        </catalog>
      </models>
   </global>
