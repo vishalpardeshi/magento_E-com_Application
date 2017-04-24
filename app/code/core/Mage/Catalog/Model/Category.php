@@ -636,7 +636,7 @@ class Mage_Catalog_Model_Category extends Mage_Catalog_Model_Abstract
      * @return string
      */
     public function getChildren()
-    {
+    {      
         return implode(',', $this->getResource()->getChildren($this, false));
     }
 

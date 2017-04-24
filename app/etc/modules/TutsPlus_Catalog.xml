@@ -3,7 +3,7 @@
       <modules>
           <TutsPlus_Catalog>
               <active>true</active>
-              <codePool>TutsPlus</codePool>
+              <codePool>local</codePool>
           </TutsPlus_Catalog>
       </modules>
 </config>
