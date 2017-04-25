@@ -4,6 +4,7 @@
 
     public function getChildren()
     {
+        echo "Class rewritting";
         return  $this->getResource()->getChildren($this, false);
     }
   }
